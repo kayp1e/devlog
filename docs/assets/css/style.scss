@@ -3,8 +3,15 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+  font-family: 'JF Dot MPlus10';
+  src: url('/devlog/assets/fonts/jf-dot-mplus10.woff') format('woff'),
+    url('/devlog/assets/fonts/jf-dot-mplus10.woff2') format('woff2'),
+    url('/devlog/assets/fonts/jf-dot-mplus10.ttf') format('truetype');
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "JF Dot MPlus 10", sans-serif;
   font-size: 16px;
   line-height: 1.8;
 }
